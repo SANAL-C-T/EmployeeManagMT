@@ -1,0 +1,31 @@
+@import "../../vars.css";
+
+
+.leftsubnav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.leftsubnav li {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.rightsubnav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.rightsubnav li {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+
+.subnavcontainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-secondary);
+  height: 25px;
+  padding: 5px;
+}

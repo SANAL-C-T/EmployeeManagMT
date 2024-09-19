@@ -1,0 +1,103 @@
+/* Main container for the form */
+.EditContainer {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form layout and spacing */
+.EditForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+/* Input and Select styles */
+.FormRow input[type="text"],
+.FormRow input[type="email"],
+.FormRow input[type="tel"],
+.FormRow input[type="password"],
+.FormRow select,
+.FormRow input[type="file"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover and focus effect on inputs */
+.FormRow input[type="text"]:focus,
+.FormRow input[type="email"]:focus,
+.FormRow input[type="tel"]:focus,
+.FormRow select:focus{
+  border-color: #1fe3f9;
+  outline: none;
+}
+
+/* Button styles */
+.EditForm button {
+  padding: 12px 20px;
+  background-color: #7bebb8;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.EditForm button:hover {
+  background-color: #18be3c;
+}
+
+.R {
+  display: flex;
+}
+.Rname {
+  margin: 20px;
+  width: 30px;
+}
+.Degeetitle {
+  padding: 20px;
+}
+
+.DegeeMCa {
+  display: flex;
+}
+
+.Fo {
+  display: flex;
+}
+
+.Foin {
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.ProfileImage{
+  width: 100px;
+}
+
+.FormRo{
+  display: flex;
+  padding: 20px;
+}
+.Pro{
+ margin-top: 50px;
+ padding: 1px;
+ flex: 1;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ font-size: 16px;
+ transition: border-color 0.3s ease;
+}

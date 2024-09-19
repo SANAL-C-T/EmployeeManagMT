@@ -1,0 +1,30 @@
+{
+  "name": "serverside",
+  "version": "1.0.0",
+  "description": "This is the backend of Employee Management System",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/Server.js"
+  },
+  "author": "SANAL",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.2",
+    "mongoose-paginate-v2": "^1.8.3",
+    "mongoose-unique-validator": "^5.0.1",
+    "multer": "^1.4.5-lts.1",
+    "rate-limiter-flexible": "^5.0.3",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
